@@ -1,3 +1,12 @@
 .env
+.env.*
 node_modules/
 .DS_Store
+bin/
+pkg/
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets.json

@@ -1,0 +1,8 @@
+{
+  "/old-blog": "301:/success?from=/old-blog&to=https://www.fastly.com/blog",
+  "/legacy/about-us": "301:/success?from=/legacy/about-us&to=https://www.fastly.com/about",
+  "/promo": "302:/success?from=/promo&to=https://www.fastly.com",
+  "/docs/v1": "301:/success?from=/docs/v1&to=https://docs.fastly.com",
+  "/careers": "301:/success?from=/careers&to=https://www.fastly.com/about/careers",
+  "/sale": "302:/success?from=/sale&to=https://www.fastly.com/products/compute"
+}
