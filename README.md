@@ -1,6 +1,10 @@
 # Fastly Bulk Redirects
 
 Created by Fernando Cuervo
+
+## DEMO
+https://admittedly-massive-pegasus.edgecompute.app/
+
 ## The Problem
 
 Domain migrations, path rebrands, and content sunsetting all produce the same artifact: a growing table of source-to-destination URL mappings. Most teams handle this at the origin — an nginx `map` block, application middleware, or a database lookup — forcing every redirect to travel all the way back to the origin server just to return a `Location` header. Each redirect adds latency for the visitor and burns compute on infrastructure that could be doing real work.
